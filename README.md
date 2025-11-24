@@ -1,77 +1,289 @@
-<h1 align="center">👋 Hi, I'm Abhishek Kumar</h1>
-<h3 align="center">Full Stack Developer | ML Enthusiast | Web Developer</h3>
+<img width="1920" height="1080" alt="Screenshot 2025-11-23 161141" src="https://github.com/user-attachments/assets/ca2317a4-3988-4512-b994-9e71fa203d34" /># 🚀 SmartTask Portal – Task & Productivity Management System
 
----
+SmartTask Portal is a modern, web-based Task & Productivity Management System designed to help users create tasks, track progress, monitor productivity, and maintain activity logs — all inside a highly responsive Neon UI dashboard.
 
-## 🚀 About Me  
-- 🧑‍💻 I’m currently working on **SmartTask Portal – Task & Productivity Management System**  
-- 🌱 I’m learning **Full Stack Development, PHP, MySQL, JavaScript, AI/ML**  
-- 💡 I love building real-world projects and solving problems  
-- 🎯 Goal: Become a top-tier Machine Learning Engineer  
-- 🧩 Fun Fact: I debug more than I sleep 😆  
+The platform includes User Panel + Admin Panel, making it suitable for students, professionals, and organizations.
 
----
+# 📌 Table of Contents
 
-## 🛠️ Tech Stack  
-### **Languages & Core**
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,php,python,c,cpp" />
-</p>
+## About the Project
 
-### **Databases**
-<p>
-  <img src="https://skillicons.dev/icons?i=mysql" />
-</p>
+Features
 
-### **Tools & Platforms**
-<p>
-  <img src="https://skillicons.dev/icons?i=github,git,figma,ps,windows" />
-</p>
+Tech Stack
 
----
+System Architecture
 
-## 📌 Featured Project – SmartTask Portal  
-A complete web-based Task & Productivity Management System 🚀  
-- ✔ User Login / Registration  
-- ✔ Admin Dashboard  
-- ✔ Task Manager  
-- ✔ Activity Timeline  
-- ✔ Weekly Productivity Charts  
-- ✔ Responsive Neon UI  
+Database Structure
 
-🔗 **Project Repo:** _coming soon..._
+Project Folder Structure
 
----
+Installation Guide
 
-## 📊 GitHub Stats  
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight" width="48%" />
-</p>
+Screenshots
 
----
+Future Enhancements
 
-## 🔥 Contribution Streak  
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight" />
-</p>
+Contributing
 
----
+License
 
-## 🌐 Connect With Me  
-<p>
-<a href="#"><img src="https://skillicons.dev/icons?i=linkedin" width="40px"/></a>
-<a href="#"><img src="https://skillicons.dev/icons?i=instagram" width="40px"/></a>
-<a href="#"><img src="https://skillicons.dev/icons?i=twitter" width="40px"/></a>
-</p>
+Developer
 
----
+# 📖 About the Project
 
-## ❤️ Support My Work  
-If you like my projects, consider giving a ⭐ on repositories!
+SmartTask Portal is a fully functional web application built using PHP & MySQL that helps users:
 
-<p align="center">
-  <img src="https://i.imgur.com/OuRdvVP.gif" width="350px">
-</p>
+Manage daily tasks
 
----
+Track productivity
+
+Store activity logs
+
+View insights through charts
+
+Update personal profile
+
+It also features a full Admin Panel where administrators can:
+
+Manage users
+
+Manage tasks
+
+View system-wide activity logs
+
+Monitor system analytics
+
+This project is ideal for academic mini-projects, internships, and learning full-stack web development.
+
+# ⭐ Features
+🧑‍💻 User Features
+
+User Registration & Login
+
+Profile Update + Image Upload
+
+Add / Edit / Delete Tasks
+
+Task Status: Pending / Completed
+
+Weekly Productivity Insights
+
+Graphs using Chart.js
+
+User Activity Timeline (Auto Logged)
+
+Responsive Neon UI
+
+Logout System
+
+# 🛡️ Admin Features
+
+Admin Login
+
+Admin Dashboard
+
+View all users
+
+Delete users
+
+View all tasks
+
+View user login activity
+
+System analytics
+
+Secure admin session
+
+## 🛠️ Tech Stack
+## Frontend
+
+### HTML
+
+### CSS (Neon UI)
+
+### JavaScript
+
+### Backend
+
+### PHP (Core PHP)
+
+## Database
+
+### MySQL (phpMyAdmin)
+
+### Libraries & Tools
+
+### Chart.js
+
+### FontAwesome
+
+### XAMPP (Apache + MySQL)
+
+
+## 🏗️ System Architecture
+        +------------------+
+        |     Browser      |
+        +--------+---------+
+                 |
+                 v
+        +------------------+
+        |     Frontend     |
+        | HTML/CSS/JS      |
+        +--------+---------+
+                 |
+                 v
+        +------------------+
+        |     Backend      |
+        |       PHP        |
+        +--------+---------+
+                 |
+                 v
+        +------------------+
+        |     Database     |
+        |      MySQL       |
+        +------------------+
+
+## 🗄️ Database Structure
+## ✔ users
+Column	Type
+id	INT (PK)
+full_name	VARCHAR
+email	VARCHAR
+password	VARCHAR
+education_level	VARCHAR
+profile_image	VARCHAR
+role	ENUM('user','admin')
+created_at	TIMESTAMP
+## ✔ admin
+Column	Type
+id	INT
+email	VARCHAR
+password	VARCHAR (MD5)
+## ✔ todos
+Column	Type
+id	INT
+user_id	INT (FK)
+task	VARCHAR
+description	TEXT
+status	pending/completed
+created_at	TIMESTAMP
+## ✔ activity_logs
+Column	Type
+id	INT
+user_id	INT or NULL
+activity	VARCHAR
+created_at	TIMESTAMP
+
+## 📁 Project Folder Structure
+SmartTask/
+│--add task.php
+|--admin_dashboard.php
+│-- admin_login.php
+|--admin_logout.php
+│-- change_password.php
+│-- config.php
+│-- dashboard.php
+|--delete_task.php
+|--edit_profile.php
+│-- login.php
+│-- logout.php
+|--layout.php
+|--manage_task.php
+|--manage_users.php
+│-- profile.php
+│-- register.php
+│-- todo.php
+│-- timeline.php
+│-- update_profile.php
+│-- update_password.php
+│-- user_login_history.php
+│
+├── css/
+│   ├── style.css
+│   └── auth.css
+│
+├── uploads/
+│   └── profile images...
+│
+└── database.sql
+
+⚙️ Installation Guide
+
+## Follow these steps to run the project locally:
+
+Step 1: Install XAMPP
+
+Download: https://www.apachefriends.org/
+
+Step 2: Move Project to htdocs
+
+Paste folder here:
+
+C:/xampp/htdocs/SmartTask/
+
+Step 3: Create Database
+
+Open phpMyAdmin → New Database → Name:
+
+smart_task
+
+Step 4: Import SQL
+
+Import database.sql
+
+Step 5: Update config.php (if needed)
+$host = "localhost";
+$dbname = "smart_task";
+$username = "root";
+$password = "";
+
+Step 6: Run the Project
+http://localhost/SmartTask/
+
+## 🖼️ Screenshots (Add after hosting)
+/screenshots/login.png
+/screenshots/dashboard.png
+/screenshots/tasks.png
+/screenshots/profile.png
+/screenshots/admin_panel.png
+/screenshots/activity.png
+
+## 🚀 Future Enhancements
+
+Dark/Light mode
+
+Email Alerts for Tasks
+
+Mobile Application (Flutter/React Native)
+
+Calendar-based Task View
+
+Team Collaboration Features
+
+AI-based Task Suggestions
+
+Weekly Reports via Email
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Fork the repo → Create a branch → Commit changes → Make a pull request.
+
+## 📜 License
+
+This project is licensed under the MIT License.
+Free to modify and use.
+
+## 👤 Developer
+
+Abhishek Kumar
+Abhishek Rajput
+Abhishesh Kumar
+Decash Yadav
+SmartTask Portal – Mini Project
+B.Tech CSE
+## 🚀 Live Demo
+
+[View Live Demo](https://abhi14324.github.io/Advanced_Calculator_app/)
+
