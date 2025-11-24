@@ -1,4 +1,5 @@
-<img width="1920" height="1080" alt="Screenshot 2025-11-23 161141" src="https://github.com/user-attachments/assets/ca2317a4-3988-4512-b994-9e71fa203d34" /># 🚀 SmartTask Portal – Task & Productivity Management System
+
+# 🚀 SmartTask Portal – Task & Productivity Management System
 
 SmartTask Portal is a modern, web-based Task & Productivity Management System designed to help users create tasks, track progress, monitor productivity, and maintain activity logs — all inside a highly responsive Neon UI dashboard.
 
@@ -122,27 +123,7 @@ Secure admin session
 
 
 ## 🏗️ System Architecture
-        +------------------+
-        |     Browser      |
-        +--------+---------+
-                 |
-                 v
-        +------------------+
-        |     Frontend     |
-        | HTML/CSS/JS      |
-        +--------+---------+
-                 |
-                 v
-        +------------------+
-        |     Backend      |
-        |       PHP        |
-        +--------+---------+
-                 |
-                 v
-        +------------------+
-        |     Database     |
-        |      MySQL       |
-        +------------------+
+   <img width="1520" height="780" alt="System Architecture" src="https://github.com/user-attachments/assets/ca2317a4-3988-4512-b994-9e71fa203d34" />  
 
 ## 🗄️ Database Structure
 ## ✔ users
@@ -175,38 +156,7 @@ user_id	INT or NULL
 activity	VARCHAR
 created_at	TIMESTAMP
 
-## 📁 Project Folder Structure
-SmartTask/
-│--add task.php
-|--admin_dashboard.php
-│-- admin_login.php
-|--admin_logout.php
-│-- change_password.php
-│-- config.php
-│-- dashboard.php
-|--delete_task.php
-|--edit_profile.php
-│-- login.php
-│-- logout.php
-|--layout.php
-|--manage_task.php
-|--manage_users.php
-│-- profile.php
-│-- register.php
-│-- todo.php
-│-- timeline.php
-│-- update_profile.php
-│-- update_password.php
-│-- user_login_history.php
-│
-├── css/
-│   ├── style.css
-│   └── auth.css
-│
-├── uploads/
-│   └── profile images...
-│
-└── database.sql
+
 
 ⚙️ Installation Guide
 
@@ -240,6 +190,9 @@ $password = "";
 
 Step 6: Run the Project
 http://localhost/SmartTask/
+
+## Folder Structure 
+<img width="1520" height="780" alt="Folder_structure" src="https://github.com/user-attachments/assets/ca2317a4-3988-4512-b994-9e71fa203d34" />
 
 ## 🖼️ Screenshots (Add after hosting)
 /screenshots/login.png
@@ -285,5 +238,5 @@ SmartTask Portal – Mini Project
 B.Tech CSE
 ## 🚀 Live Demo
 
-[View Live Demo](https://abhi14324.github.io/Advanced_Calculator_app/)
+[View Live Demo](https://abhi14324.github./)
 
