@@ -123,7 +123,8 @@ Secure admin session
 
 
 ## 🏗️ System Architecture
-   <img width="1520" height="780" alt="System Architecture" src="https://github.com/user-attachments/assets/System Architecture" />  
+<img width="660" height="745" alt="System Architecture" src="https://github.com/user-attachments/assets/cb1947b3-9f0f-43c2-b3cc-a726a6136469" />
+
 
 ## 🗄️ Database Structure
 ## ✔ users
@@ -191,8 +192,6 @@ $password = "";
 Step 6: Run the Project
 http://localhost/SmartTask/
 
-## Folder Structure 
-<img width="1520" height="780" alt="Folder_structure" src="https://github.com/user-attachments/assets/Folder_stuucture" />
 
 ## 🖼️ Screenshots (Add after hosting)
 /screenshots/login.png
