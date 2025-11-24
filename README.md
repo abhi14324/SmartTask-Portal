@@ -123,7 +123,7 @@ Secure admin session
 
 
 ## 🏗️ System Architecture
-   <img width="1520" height="780" alt="System Architecture" src="https://github.com/user-attachments/assets/ca2317a4-3988-4512-b994-9e71fa203d34" />  
+   <img width="1520" height="780" alt="System Architecture" src="https://github.com/user-attachments/assets/System Architecture" />  
 
 ## 🗄️ Database Structure
 ## ✔ users
@@ -182,7 +182,7 @@ Step 4: Import SQL
 
 Import database.sql
 
-Step 5: Update config.php (if needed)
+Step 5: Update config.php (if needed_
 $host = "localhost";
 $dbname = "smart_task";
 $username = "root";
@@ -192,7 +192,7 @@ Step 6: Run the Project
 http://localhost/SmartTask/
 
 ## Folder Structure 
-<img width="1520" height="780" alt="Folder_structure" src="https://github.com/user-attachments/assets/ca2317a4-3988-4512-b994-9e71fa203d34" />
+<img width="1520" height="780" alt="Folder_structure" src="https://github.com/user-attachments/assets/Folder_stuucture" />
 
 ## 🖼️ Screenshots (Add after hosting)
 /screenshots/login.png
