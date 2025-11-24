@@ -123,7 +123,8 @@ Secure admin session
 
 
 ## 🏗️ System Architecture
-<img width="660" height="745" alt="System Architecture" src="https://github.com/user-attachments/assets/cb1947b3-9f0f-43c2-b3cc-a726a6136469" />
+<img width="595" height="664" alt="System Architecture" src="https://github.com/user-attachments/assets/7a845092-a7c9-4eaf-a018-64282e284a2a" />
+
 
 
 ## 🗄️ Database Structure
